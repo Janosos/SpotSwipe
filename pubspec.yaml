@@ -1,0 +1,29 @@
+name: spot_swipe
+description: "SpotSwipe - Descubre lugares increíbles deslizando tarjetas y navega al instante."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Tarjetas deslizables estilo Tinder
+  flutter_card_swiper: ^7.0.2
+  # Permisos y geolocalización en tiempo real
+  geolocator: ^13.0.2
+  # Lanzador de esquemas nativos (Google Maps, Apple Maps, Web)
+  url_launcher: ^6.3.1
+  # Caché de imágenes de alta resolución con placeholders
+  cached_network_image: ^3.4.1
+  # Peticiones HTTP para obtener lugares reales y geocodificación
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
